@@ -9,27 +9,24 @@ class NewsService {
     
     // Multiple RSS feeds for diversity
     this.rssFeeds = [
-      'https://timesofindia.indiatimes.com/rssfeeds/-2128936835.cms',
-      'https://timesofindia.indiatimes.com/rssfeedstopstories.cms',
-      // 'https://rss.nytimes.com/services/xml/rss/nyt/World.xml',
-      'https://feeds.bbci.co.uk/news/world/rss.xml',
-      'http://rss.cnn.com/rss/edition.rss',
-      // 'http://feeds.reuters.com/Reuters/worldNews',
-      // 'https://www.theguardian.com/world/rss',
-      // 'http://feeds.feedburner.com/TechCrunch/',
-      'https://www.wired.com/feed/rss',
-      // 'https://www.bloomberg.com/feed/podcast/etf-report.xml',
-      // 'https://www.forbes.com/business/feed/',
-      'https://www.ft.com/?format=rss',
-      'https://www.espn.com/espn/rss/news',
-      'https://feeds.bbci.co.uk/sport/rss.xml',
-      'https://variety.com/feed/',
-      'https://www.rollingstone.com/music/music-news/feed/',
-      // 'https://www.who.int/feeds/entity/mediacentre/news/en/rss.xml',
-      'https://www.nasa.gov/rss/dyn/breaking_news.rss',
-      'https://www.livescience.com/feeds/all',
-      // 'https://rss.nytimes.com/services/xml/rss/nyt/HomePage.xml'
-    ];
+  'https://feeds.bbci.co.uk/news/world/rss.xml',
+  'https://feeds.reuters.com/reuters/worldNews',
+  'https://feeds.bloomberg.com/markets/news.rss',
+  'https://feeds.cnbc.com/cnbc/world',
+  'https://www.aljazeera.com/xml/rss/all.xml',
+  'https://feeds.theguardian.com/theguardian/world/rss',
+  'https://feeds.nytimes.com/services/xml/rss/nyt/world.xml',
+  'https://apnews.com/hub/world-news/rss',
+  'https://feeds.france24.com/en/rss/',
+  'https://www.theaustralian.com.au/feed/',
+  'https://feeds.timesofindia.indiatimes.com/toi-world/feedlatest.cms',
+  'https://feeds.ndtv.com/ndtv/latest',
+  'https://indianexpress.com/feed/',
+  'https://feeds.thehindu.com/thehindu/latest/',
+  'https://feeds.news18.com/rss/',
+  'https://feeds.business-standard.com/news/rss/',
+  'https://feeds.economictimes.indiatimes.com/economictimes/economictimes-all.xml',
+  'https://firstpost.com/feed/'];
   }
 
   /**
