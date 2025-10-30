@@ -8,11 +8,7 @@ class EmbeddingService {
     this.model = config.jina.model;
   }
 
-//   /**
-//    * Generate embeddings for multiple texts
-//    * @param {Array<string>} texts - Array of text strings
-//    * @returns {Promise<Array<Array<number>>>} Array of embedding vectors
-//    */
+
   async generateEmbeddings(texts) {
     if (!texts || texts.length === 0) {
       throw new Error('No texts provided for embedding generation');
@@ -47,21 +43,13 @@ class EmbeddingService {
     }
   }
 
-//   /**
-//    * Generate single embedding
-//    * @param {string} text - Single text string
-//    * @returns {Promise<Array<number>>} Embedding vector
-//    */
+
   async generateEmbedding(text) {
     const embeddings = await this.generateEmbeddings([text]);
     return embeddings[0];
   }
 
-//   /**
-//    * Generate embeddings in batches to avoid API limits
-//    * @param {Array<string>} texts - Array of texts
-//    * @param {number} batchSize - Size of each batch
-//    */
+
   async generateEmbeddingsInBatches(texts, batchSize = 10) {
     const allEmbeddings = [];
     
