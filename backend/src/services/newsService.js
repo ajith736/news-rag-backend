@@ -21,8 +21,7 @@ class NewsService {
   'https://rss.app/feeds/IEDXiusPDsMcVCvF.xml',
   'https://rss.app/feeds/f0hHKCMVnS31r4xf.xml',
   'https://rss.app/feeds/vCRw0JxsaqGdlK8q.xml',
-  'https://rss.app/feeds/tsQ2s1LmUA6kvvT5.xml',
-  'https://rss.app/feeds/alELdKpNF7EYYY0z.xml'
+  'https://rss.app/feeds/tsQ2s1LmUA6kvvT5.xml'
     ];
   }
 
