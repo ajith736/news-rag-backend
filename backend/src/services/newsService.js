@@ -12,7 +12,15 @@ class NewsService {
   'https://feeds.bbci.co.uk/news/world/rss.xml',
   'https://www.aljazeera.com/xml/rss/all.xml',
   'https://indianexpress.com/feed/',
-  'https://rss.app/feeds/6uQDDjAjRyQ81diV.xml'
+  'https://rss.app/feeds/6uQDDjAjRyQ81diV.xml',
+  'https://rss.app/feeds/ZObtVhhhztUVg2L6.xml',
+  'https://rss.app/feeds/YfISLEkYEeCgAExU.xml',
+  'https://rss.app/feeds/C9VR1NqIwcltSBO0.xml',
+  'https://rss.app/feeds/VLWsc0PnSnz7DjxU.xml',
+  'https://rss.app/feeds/PwrvOoHsl4tEWSbH.xml',
+  'https://rss.app/feeds/IEDXiusPDsMcVCvF.xml',
+  'https://rss.app/feeds/f0hHKCMVnS31r4xf.xml',
+  'https://rss.app/feeds/vCRw0JxsaqGdlK8q.xml'
     ];
   }
 
